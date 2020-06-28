@@ -7,8 +7,9 @@
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></link>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<body style="background-color: black">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.4-build.3588/angular.min.js"></script>
+<script type="text/javascript" src="angular.js"></script>
+<body style="background-color: black" ng-app="CodeApp" ng-controller="codeCtrl">
 	<div class="container text-center text-white">
 		<div class="text-white ">
 			<nav class="navbar sticky-top justify-content-end" style="display: none;border-bottom: 1px solid white;">
@@ -16,7 +17,6 @@
 			  <a class="navbar-brand navProjects">Projects</a>
 			  <a class="navbar-brand navCodes">Codes</a>
 			  <a class="navbar-brand navBlog">Blog</a>
-			  <!-- <a class="navbar-brand ">Contact</a> -->
 			</nav>
 		</div>
 
@@ -24,15 +24,14 @@
 
 		<div class="MainPage">
 			<div class="row mb-5" id="rows">
-				<a class="col-4 text-center display-4 About" >About</a>
-				<a class="col-4 text-center display-4 Projects">Projects</a>
-				<a class="col-4 text-center display-4 Code">Codes</a>
+				<a class="col-4 text-center display-4 About" style="display: none;" ></a>
+				<a class="col-4 text-center display-4 Projects" style="display: none;"></a>
+				<a class="col-4 text-center display-4 Code" style="display: none;"></a>
 			</div>
 
 			<div class="row mb-5" id="rows">
-				<a class="col-3"></a>
-				<a class="col-3 text-center display-4 Blog">Blog</a>
-				<a class="col-4 text-center display-4 Contact"> Lol</a>
+				<a class="col-4"></a>
+				<a class="col-4 text-center display-4 Blog" style="display: none;"></a>
 			</div>
 
 			<div class="row last_line display-4" style="display: none;"></div>
@@ -40,7 +39,6 @@
 
 		<!-- About -->
 		<div class="row text-light about" style="display: none;font-size:1.5rem;">
-			
 			<div class=" row text-left mb-2">Hi, I am a computer science undergraduate at BITS Pilani, Goa Campus. I prefer things that I can understand. I like deterministic things. Maths interests me. I do a lot of random things. Click on the projects to go through a few of them.</div>
 
 			<div class=" row text-left mb-2">
@@ -56,7 +54,6 @@
 
 		<!-- Projects -->
 		<div class="projects text-white" style="display: none;">
-
 			<div class="row text-left">
 				<div class="display-4">Forecasting Models <br></div>
 				<div class="col-10" style="font-size: 1.4rem;">
@@ -106,24 +103,53 @@
 				<div class="col-10" style="font-size: 1.4rem;">
 					As the name suggests,it is the opposite of a javadoc.It uses the javadoc to generate the template for files. It uses beautifulsoup to parse the data and generate the text. For a detailed analysis : <a href="https://github.com/jinit24/Codavaj" class="text-light">Code</a>
 				</div>
-
 				<div class="col-2"><i class="fa fa-book" aria-hidden="true" style="font-size: 5rem;"></i></div>
 			</div>
 			<br><br>
-			
 		</div>
 
+		<!-- Code -->
+		<div class="code text-white" style="display: none;">
+			<div class="accordion" id="accordionExample" >
+			  <div class="card" style="background-color: black;">
+			    <div class="card-header" id="headingOne">
+			        <button class="btn btn-link btn-block text-left text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="box-shadow: none;">
+			          <div class="display-4">Data Structures</div>
+			        </button>
+			    </div>
 
-
+			    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+			      <div class="card-body" style="height: 200px;overflow-x: auto;">
+			      		<div class="text-left" ng-repeat="x in DS_files" style="font-size: 1.3rem"><a ng-href="Code/DS/{{x}}" class="text-white">{{x}}</a></div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="card" style="background-color: black;">
+			    <div class="card-header" id="headingTwo">
+			        <button class="btn btn-link btn-block text-left text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="box-shadow: none;">
+			          <div class="display-4">Algorithms</div>
+			        </button>
+			    </div>
+			    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+			      <div class="card-body" style="height: 200px;overflow-x: auto;">
+			      		<div class="text-left" ng-repeat="x in Algo_files" style="font-size: 1.3rem"><a ng-href="Code/Algo/{{x}}" class="text-white">{{x}}</a></div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 	<script type="text/javascript">
+
+		$('.collapse').collapse()
 
 		function hideEverything(callback){
 			$('.MainPage').fadeOut();
 			$('.about').fadeOut();
 			$('.projects').fadeOut();
-			$('.codes').fadeOut();
+			$('.code').fadeOut();
 			$('.blog').fadeOut();
 			setTimeout(function(){callback()},400)
 		}	
@@ -131,7 +157,6 @@
 		$('.About').click(function(){
 			hideEverything(function()
 				{	
-					console.log("YES")
 					$('.about').fadeIn()
 					$('nav').fadeIn()
 				})
@@ -140,8 +165,15 @@
 		$('.Projects').click(function(){
 			hideEverything(function()
 				{	
-					console.log("YES")
 					$('.projects').fadeIn()
+					$('nav').fadeIn()
+				})
+		});
+
+		$('.Code').click(function(){
+			hideEverything(function()
+				{	
+					$('.code').fadeIn()
 					$('nav').fadeIn()
 				})
 		});
@@ -149,7 +181,6 @@
 		$('.navProjects').click(function(){
 			hideEverything(function()
 				{	
-					console.log("YES")
 					$('.projects').fadeIn()
 					$('nav').fadeIn()
 				})
@@ -158,100 +189,90 @@
 		$('.navAbout').click(function(){
 			hideEverything(function()
 				{	
-					console.log("YES")
 					$('.about').fadeIn()
 					$('nav').fadeIn()
 				})
 		});
 
+		$('.navCodes').click(function(){
+			hideEverything(function()
+				{	
+					$('.code').fadeIn()
+					$('nav').fadeIn()
+				})
+		});
 
+		var instance = new TypeIt("#Intro", {
+		  strings: ["Hi, I'm Jinit!"],
+		  speed: 75,
+		  loop: false,
+	      waitUntilVisible: true,
+	      afterComplete: async (step, instance) => {
+	      	instance.destroy();
+	      	document.getElementsByClassName('About')[0].style.display = 'block';
+	      	document.getElementsByClassName('About')[0].style['border-right'] = '1px solid white';
 
+	  	} 
+		}).pause(1000).delete().type("What can I help you with?").pause(2000).delete().go();
 
+		var a = new TypeIt(".About", {
+		  strings: "About",
+		    speed: 75,
+			loop: false,
+		    waitUntilVisible: true,
+	      afterComplete: async (step, instance) => {
+	      	instance.destroy();
+	      	document.getElementsByClassName('Projects')[0].style.display = 'block';
+	      	document.getElementsByClassName('About')[0].style['border-right'] = '1px solid white';
 
+	  	} 			
+		}).go();
 
-		// var instance = new TypeIt("#Intro", {
-		//   strings: ["Hi, I'm Jinit!"],
-		//   speed: 75,
-		//   loop: false,
-	 //      waitUntilVisible: true,
-	 //      afterComplete: async (step, instance) => {
-	 //      	instance.destroy();
-	 //      	document.getElementsByClassName('About')[0].style.display = 'block';
-	 //      	document.getElementsByClassName('About')[0].style['border-right'] = '1px solid white';
+		var p = new TypeIt(".Projects", {
+		  strings: "Projects",
+		    speed: 75,
+			loop: false,
+		    waitUntilVisible: true,
+	      afterComplete: async (step, instance) => {
+	      	instance.destroy();
+	      	document.getElementsByClassName('Code')[0].style.display = 'block';
+	      	document.getElementsByClassName('Projects')[0].style['border-right'] = '1px solid white';
 
-	 //  	} 
-		// }).pause(1000).delete().type("What can I help you with?").pause(2000).delete().go();
+	  	} 			
+		}).go();
 
-		// var a = new TypeIt(".About", {
-		//   strings: "About",
-		//     speed: 75,
-		// 	loop: false,
-		//     waitUntilVisible: true,
-	 //      afterComplete: async (step, instance) => {
-	 //      	instance.destroy();
-	 //      	document.getElementsByClassName('Projects')[0].style.display = 'block';
-	 //      	document.getElementsByClassName('About')[0].style['border-right'] = '1px solid white';
+		var p = new TypeIt(".Code", {
+		  strings: "Codes",
+		    speed: 75,
+			loop: false,
+		    waitUntilVisible: true,
+	      afterComplete: async (step, instance) => {
+	      	instance.destroy();
+	      	document.getElementsByClassName('Blog')[0].style.display = 'block';
 
-	 //  	} 			
-		// }).go();
+	  	} 			
+		}).go();
 
-		// var p = new TypeIt(".Projects", {
-		//   strings: "Projects",
-		//     speed: 75,
-		// 	loop: false,
-		//     waitUntilVisible: true,
-	 //      afterComplete: async (step, instance) => {
-	 //      	instance.destroy();
-	 //      	document.getElementsByClassName('Code')[0].style.display = 'block';
-	 //      	document.getElementsByClassName('Projects')[0].style['border-right'] = '1px solid white';
+		var b = new TypeIt(".Blog", {
+		  strings: "Blog",
+		    speed: 75,
+			loop: false,
+		    waitUntilVisible: true,
+	      afterComplete: async (step, instance) => {
+	      	instance.destroy();
+	      	document.getElementsByClassName('last_line')[0].style.display = 'block';
+	  	} 			
+		}).go();
 
-	 //  	} 			
-		// }).go();
-
-		// var p = new TypeIt(".Code", {
-		//   strings: "Codes",
-		//     speed: 75,
-		// 	loop: false,
-		//     waitUntilVisible: true,
-	 //      afterComplete: async (step, instance) => {
-	 //      	instance.destroy();
-	 //      	document.getElementsByClassName('Blog')[0].style.display = 'block';
-
-	 //  	} 			
-		// }).go();
-
-		// var b = new TypeIt(".Blog", {
-		//   strings: "Blog",
-		//     speed: 75,
-		// 	loop: false,
-		//     waitUntilVisible: true,
-	 //      afterComplete: async (step, instance) => {
-	 //      	instance.destroy();
-	 //      	document.getElementsByClassName('Contact')[0].style.display = 'block';
-	 //      	document.getElementsByClassName('Blog')[0].style['border-right'] = '1px solid white';
-	 //  	} 			
-		// }).go();
-
-		// var b = new TypeIt(".Contact", {
-		//   strings: "Contact Me",
-		//     speed: 75,
-		// 	loop: false,
-		//     waitUntilVisible: true,
-	 //      afterComplete: async (step, instance) => {
-	 //      	instance.destroy();
-	 //      	document.getElementsByClassName('last_line')[0].style.display = 'block';
-	 //  	} 			
-		// }).go();
-
-		// var l = new TypeIt(".last_line", {
-		//   strings: "Click on the above links to know more",
-		//     speed: 75,
-		// 	loop: false,
-		//     waitUntilVisible: true,
-	 //      afterComplete: async (step, instance) => {
-	 //      	instance.destroy();
-	 //  	} 			
-		// }).go();
+		var l = new TypeIt(".last_line", {
+		  strings: "Click on the above links to know more",
+		    speed: 60,
+			loop: false,
+		    waitUntilVisible: true,
+	      afterComplete: async (step, instance) => {
+	      	instance.destroy();
+	  	} 			
+		}).go();
 
 
 	</script>
