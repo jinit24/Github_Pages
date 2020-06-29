@@ -9,40 +9,39 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.4-build.3588/angular.min.js"></script>
 <script type="text/javascript" src="angular.js"></script>
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"/> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-cpp.min.js"></script>
 <style>
 	body{
 		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 	}
+
 </style>
 
 <body style="background-color: black" ng-app="CodeApp" ng-controller="codeCtrl">
 	<div class="container text-center text-white">
-		<div class="text-white ">
-			<nav class="navbar sticky-top justify-content-end" style="display: none;border-bottom: 1px solid white;">
-			  <a class="navbar-brand navAbout">About</a>
-			  <a class="navbar-brand navProjects">Projects</a>
-			  <a class="navbar-brand navCodes">Codes</a>
-			  <a class="navbar-brand navBlog">Blog</a>
+			<nav class="navbar" style="display: none;border-bottom: 1px solid white;">
+			  <a class="navbar-brand text-left" style="font-size: 1.4rem;">Jinit Shah</a>
+			  	<div class=" justify-content-end">
+				  <a class="navbar-brand navAbout text-white" href="">About</a>
+				  <a class="navbar-brand navProjects text-white" href="">Projects</a>
+				  <a class="navbar-brand navCodes text-white" href="">Codes</a>
+				  <a class="navbar-brand navBlog text-white" href="">Blog</a>
+				</div>
 			</nav>
 			<br><br>
-		</div>
 
 		<div class="display-3 mt-3 text-center text-white" id="Intro"></div>
 
 		<div class="MainPage text-white">
 			<br><br>
 			<div class="row mb-5" id="rows">
-				<a class="col-4 text-center display-4 About" style="display: none;" ></a>
-				<a class="col-4 text-center display-4 Projects" style="display: none;"></a>
-				<a class="col-4 text-center display-4 Code" style="display: none;"></a>
+				<a class="col-4 text-center text-white display-4 About" href="" style="display: none;" ></a>
+				<a class="col-4 text-center text-white display-4 Projects" href="" style="display: none;"></a>
+				<a class="col-4 text-center text-white display-4 Code" href="" style="display: none;"></a>
 			</div>
 
 			<div class="row mb-5" id="rows">
 				<a class="col-4"></a>
-				<a class="col-4 text-center display-4 Blog" style="display: none;"></a>
+				<a class="col-4 text-center text-white display-4 Blog" href="" style="display: none;"></a>
 			</div>
 
 			<div class="last_line display-4" style="display: none;">Click on any of the above to know more.</div>
@@ -50,18 +49,27 @@
 
 		<!-- About -->
 		<div class="row text-white about" style="display: none;font-size:1.5rem;">
-			<div class="row text-left mb-2" style="display: inline-block">
-				Hi, I am a Computer Science undergrad at BITS Pilani, Goa Campus currently in my second year. Maths interests me. I do a lot of random things. Click on the projects to go through a few of them. I occasionally write articles <a href="https://medium.com/@jinit245" target="_blank">here</a>.  
-			</div>
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="row text-left mb-2" style="display: inline-block">
+						Hi, I am a Computer Science undergrad at BITS Pilani, Goa Campus currently in my second year. Maths interests me. I do a lot of random things. Click on the projects to go through a few of them. I occasionally write articles <a href="https://medium.com/@jinit245">here</a>.  
+					</div>
 
-			<div class=" row text-left mb-2">
-				As a part of my internships I have worked on forecasting models at PayPal, full stack development and financial analysis at Finpeg. I worked on developing a CRM tool. Drop an email , if you have an idea to discuss.
-			</div>
+					<div class="row text-left mb-2">
+						As a part of my internships I have worked on forecasting models at PayPal, full stack development and financial analysis at Finpeg. I worked on developing a CRM tool. Drop an email, if you have an idea to discuss.
+					</div>
+				</div>
 
-			<div style="width: 50%">
-				<div class="row"><div class="col-2 pl-0 text-left"><i class="fa fa-linkedin "></i></div><div class="col-5"><a class="text-white" href="https://www.linkedin.com/in/jinit-shah-0599001a9/">Jinit Shah</a></div></div>
-				<div class="row"> <div class="col-2 pl-0 text-left"><i class="fa fa-envelope"></i> </div><div class="col-5"> dornumofficial@gmail.com</div></div>
-				<div class="row"> <div class="col-2 pl-0 text-left"><i class="fa fa-github">  </i> </div><div class="col-5"> <a href="https://github.com/jinit24" class="text-white"> jinit24</a></div></div>
+				<br>
+				<div class="col-lg-4 p-0">
+					<img src="Code/pic.jpg" style="width: 100%;max-height: 300px;max-width: 300px;border-radius: 5px">
+				</div>
+				<br>
+			</div>
+			<div class="mt-4" style="width: 50%">
+				<div class="row"><div class="col-2 pl-0 text-left"><i class="fa fa-linkedin "></i></div><div class="col-6"><a class="text-white" href="https://www.linkedin.com/in/jinit-shah-0599001a9/">Jinit Shah</a></div></div>
+				<div class="row"> <div class="col-2 pl-0 text-left"><i class="fa fa-envelope"></i> </div><div class="col-6"> dornumofficial@gmail.com</div></div>
+				<div class="row"> <div class="col-2 pl-0 text-left"><i class="fa fa-github">  </i> </div><div class="col-6"> <a href="https://github.com/jinit24" class="text-white"> jinit24</a></div></div>
 			</div>
 		</div>
 
@@ -123,7 +131,6 @@
 
 		<!-- Code -->
 		<div class="code text-white" style="display: none;">
-
 			<h1 class="display-4">
 				A personal Pastebin of sorts. <br><br>
 			</h1> 
@@ -138,7 +145,7 @@
 
 			    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 			      <div class="card-body" style="height: 200px;overflow-x: auto;">
-			      		<div class="text-left" ng-repeat="x in DS_files" style="font-size: 1.3rem"><a target="_blank" ng-href="Code/DS/{{x}}" class="text-white">{{x}}</a></div>
+			      		<div class="text-left" ng-repeat="x in DS_files" style="font-size: 1.3rem"><a target="_blank" ng-href="https://github.com/jinit24/Codes/blob/master/DS/{{x}}" class="text-white">{{x}}</a></div>
 			      </div>
 			    </div>
 			  </div>
@@ -150,7 +157,25 @@
 			    </div>
 			    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 			      <div class="card-body" style="height: 200px;overflow-x: auto;">
-			      		<div class="text-left" ng-repeat="x in Algo_files" style="font-size: 1.3rem"><a target="_blank" ng-href="Code/Algo/{{x}}" class="text-white">{{x}}</a></div>
+			      		<div class="text-left" ng-repeat="x in Algo_files" style="font-size: 1.3rem"><a target="_blank" ng-href="https://github.com/jinit24/Codes/blob/master/Algo/{{x}}" class="text-white">{{x}}</a></div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+		<!-- Blog -->
+		<div class="blog text-white" style="display: none;">
+			<div class="accordion" id="accordionExample" >
+			  <div class="card" style="background-color: black;">
+			    <div class="card-header p-0" id="headingOne">
+			        <button class="btn btn-link btn-block text-left text-white p-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="box-shadow: none;">
+			          <h2 class="blog1Name"></h2>
+			        </button>
+			    </div>
+
+			    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+			      <div class="blog1 bg-white text-dark" style="height: 500px;overflow-x: auto;">
 			      </div>
 			    </div>
 			  </div>
@@ -160,6 +185,7 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 	<script type="text/javascript">
+
 		$(document).ready(function(){
 		  $('a').attr('target', '_blank');
 		});
@@ -200,6 +226,15 @@
 				})
 		});
 
+		$('.Blog').click(function(){
+			hideEverything(function()
+				{	
+					$('.blog').fadeIn()
+					$('nav').fadeIn()
+				})
+		});
+
+
 		$('.navProjects').click(function(){
 			hideEverything(function()
 				{	
@@ -220,6 +255,14 @@
 			hideEverything(function()
 				{	
 					$('.code').fadeIn()
+					$('nav').fadeIn()
+				})
+		});
+
+		$('.navBlog').click(function(){
+			hideEverything(function()
+				{	
+					$('.blog').fadeIn()
 					$('nav').fadeIn()
 				})
 		});
@@ -291,17 +334,6 @@
 	      	$('.last_line').fadeIn();
 	  	} 			
 		}).go();
-
-		// var l = new TypeIt(".last_line", {
-		//   strings: "Click on any of them to know more",
-		//     speed: 60,
-		// 	loop: false,
-		//     waitUntilVisible: true,
-	 //      afterComplete: async (step, instance) => {
-	 //      	instance.destroy();
-	 //  	} 			
-		// }).go();
-
 
 	</script>
 </body>
