@@ -14,14 +14,19 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
 }));
 
-var server = app.listen(1000, "localhost", function () {
- 
-  var host = server.address().address
-  var port = server.address().port
- 
-  console.log("Example app listening at http://%s:%s", host, port)
- 
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
 });
+
+// var server = app.listen(1000, "localhost", function () {
+ 
+//   var host = server.address().address
+//   var port = server.address().port
+ 
+//   console.log("Example app listening at http://%s:%s", host, port)
+ 
+// });
 
 var folders = fs.readdirSync(__dirname + '/Code');
 var folder;

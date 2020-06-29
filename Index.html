@@ -9,6 +9,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.4-build.3588/angular.min.js"></script>
 <script type="text/javascript" src="angular.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"/> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-cpp.min.js"></script>
+<style>
+	body{
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	}
+</style>
+
 <body style="background-color: black" ng-app="CodeApp" ng-controller="codeCtrl">
 	<div class="container text-center text-white">
 		<div class="text-white ">
@@ -18,11 +27,13 @@
 			  <a class="navbar-brand navCodes">Codes</a>
 			  <a class="navbar-brand navBlog">Blog</a>
 			</nav>
+			<br><br>
 		</div>
 
-		<div class="row display-3 mt-5" id="Intro"></div>
+		<div class="display-3 mt-3 text-center text-white" id="Intro"></div>
 
-		<div class="MainPage">
+		<div class="MainPage text-white">
+			<br><br>
 			<div class="row mb-5" id="rows">
 				<a class="col-4 text-center display-4 About" style="display: none;" ></a>
 				<a class="col-4 text-center display-4 Projects" style="display: none;"></a>
@@ -34,21 +45,23 @@
 				<a class="col-4 text-center display-4 Blog" style="display: none;"></a>
 			</div>
 
-			<div class="row last_line display-4" style="display: none;"></div>
+			<div class="last_line display-4" style="display: none;">Click on any of the above to know more.</div>
 		</div>
 
 		<!-- About -->
-		<div class="row text-light about" style="display: none;font-size:1.5rem;">
-			<div class=" row text-left mb-2">Hi, I am a computer science undergraduate at BITS Pilani, Goa Campus. I prefer things that I can understand. I like deterministic things. Maths interests me. I do a lot of random things. Click on the projects to go through a few of them.</div>
+		<div class="row text-white about" style="display: none;font-size:1.5rem;">
+			<div class="row text-left mb-2" style="display: inline-block">
+				Hi, I am a Computer Science undergrad at BITS Pilani, Goa Campus currently in my second year. Maths interests me. I do a lot of random things. Click on the projects to go through a few of them. I occasionally write articles <a href="https://medium.com/@jinit245" target="_blank">here</a>.  
+			</div>
 
 			<div class=" row text-left mb-2">
-				As a part of my internships I have worked on forecasting models at PayPal, full stack development and financial analysis at Finpeg.  I worked on developing a CRM tool. Drop an email ,if you have an interesting idea to discuss.
+				As a part of my internships I have worked on forecasting models at PayPal, full stack development and financial analysis at Finpeg. I worked on developing a CRM tool. Drop an email , if you have an idea to discuss.
 			</div>
 
 			<div style="width: 50%">
-				<div class="row"><div class="col-2 pl-0 text-left"><i class="fa fa-linkedin "></i></div><div class="col-5"><a class="text-light" href="https://www.linkedin.com/in/jinit-shah-0599001a9/">Jinit Shah</a></div></div>
+				<div class="row"><div class="col-2 pl-0 text-left"><i class="fa fa-linkedin "></i></div><div class="col-5"><a class="text-white" href="https://www.linkedin.com/in/jinit-shah-0599001a9/">Jinit Shah</a></div></div>
 				<div class="row"> <div class="col-2 pl-0 text-left"><i class="fa fa-envelope"></i> </div><div class="col-5"> dornumofficial@gmail.com</div></div>
-				<div class="row"> <div class="col-2 pl-0 text-left"><i class="fa fa-github">  </i> </div><div class="col-5"> <a href="https://github.com/jinit24" class="text-light"> jinit24</a></div></div>
+				<div class="row"> <div class="col-2 pl-0 text-left"><i class="fa fa-github">  </i> </div><div class="col-5"> <a href="https://github.com/jinit24" class="text-white"> jinit24</a></div></div>
 			</div>
 		</div>
 
@@ -57,21 +70,21 @@
 			<div class="row text-left">
 				<div class="display-4">Forecasting Models <br></div>
 				<div class="col-10" style="font-size: 1.4rem;">
-					As a part of my internship at Paypal, I worked on forecast of wallet deposits. I developed couple of models : ARIMA and regression based model. I wrote the ARIMA model from scratch in python. It turned out that it was well suited to the data and gave accurate results. For a detailed analysis : <a href="https://github.com/jinit24/ARIMA-Model" class="text-light">Code</a>. I wrote an article on it, you can read it <a href="https://medium.com/analytics-vidhya/arima-model-from-scratch-in-python-489e961603ce" class="text-light">here</a>.
+					As a part of my internship at Paypal, I worked on forecast of wallet deposits. I developed couple of models : ARIMA and regression based model. I wrote the ARIMA model from scratch in python. It turned out that it was well suited to the data and gave accurate results. For a detailed analysis : <a href="https://github.com/jinit24/ARIMA-Model">Code</a>. I wrote an article on it, you can read it <a href="https://medium.com/analytics-vidhya/arima-model-from-scratch-in-python-489e961603ce">here</a>.
 				</div>
 				<div class="col-2"><i class="fa fa-credit-card" aria-hidden="true" style="font-size: 4rem;"></i></div>
 			</div>
 
 			<br><br>
 			<div class="row text-left">
-				<div class="display-4">Web Scraping</div>
+				<div class="display-4">Web Scraping<br></div>
 				<div class="col-10" style="font-size: 1.4rem;">
 
-					It turns out that NSE doesn't allow you to download data for more than a year at a time. So it can become quite tedious to extract data for many companies. To avoid that, I wrote a python package which scrapes the data for stocks and indices and returns a panda dataframe. For a detailed analysis : <a href="https://github.com/NSEDownload/NSEDownload" class="text-light">Code</a><br><br>
+					It turns out that NSE doesn't allow you to download data for more than a year at a time. So it can become quite tedious to extract data for many companies. To avoid that, I wrote a python package which scrapes the data for stocks and indices and returns a panda dataframe. For a detailed analysis : <a href="https://github.com/NSEDownload/NSEDownload" >Code</a><br><br>
 
-					BSE allows data downloads for a longer time period. But downloading it everyday can be problem. To keep your data up to date,you can go through this : <a href="https://github.com/jinit24/BSE-New-Data" class="text-light">Code</a>. You can set up a cron job for the same.<br><br>
+					BSE allows data downloads for a longer time period. But downloading it everyday can be problem. To keep your data up to date,you can go through this : <a href="https://github.com/jinit24/BSE-New-Data">Code</a>. You can set up a cron job for the same.<br><br>
 
-					As a part of my first year internship, I also devised an investment strategy based on moving averages. <a href="https://github.com/jinit24/Golden-and-Death-Crosses-on-NIFTY" class="text-light">Analysis</a>.				
+					As a part of my first year internship, I also devised an investment strategy based on moving averages. <a href="https://github.com/jinit24/Golden-and-Death-Crosses-on-NIFTY">Analysis</a>.				
 
 				</div>
 				<div class="col-2"><i class="fa fa-line-chart" aria-hidden="true" style="font-size: 4rem;"></i></div>
@@ -79,9 +92,9 @@
 
 			<br><br>
 			<div class="row text-left">
-				<div class="display-4">Tic-Tac-Toe</div>
+				<div class="display-4">Tic-Tac-Toe<br></div>
 				<div class="col-10" style="font-size: 1.4rem;">
-					A simple 3x3 game which always makes the optimal move as first and second player. The UI is in curses and uses a minimax algorithm to get the best move. If played optimally,the game always ends in a draw. For a detailed analysis : <a href="https://github.com/jinit24/TicTacToe" class="text-light">Code</a>
+					A simple 3x3 game which always makes the optimal move as first and second player. The UI is in curses and uses a minimax algorithm to get the best move. If played optimally,the game always ends in a draw. For a detailed analysis : <a href="https://github.com/jinit24/TicTacToe" >Code</a>
 				</div>
 
 				<div class="col-2"><i class="fa fa-trophy" aria-hidden="true" style="font-size: 5rem;"></i></div>
@@ -89,9 +102,9 @@
 
 			<br><br>
 			<div class="row text-left">
-				<div class="display-4">Word Predictor </div>
+				<div class="display-4">Word Predictor<br> </div>
 				<div class="col-10" style="font-size: 1.4rem;">
-					Given a word,it predicts 5 next closest words. It uses a data structure called trie (fancy term for a tree full of alphabets) and BFS . Written in C++. For a detailed analysis : <a href="https://github.com/jinit24/Word-Predictor" class="text-light">Code</a>
+					Given a word,it predicts 5 next closest words. It uses a data structure called trie (fancy term for a tree full of alphabets) and BFS . Written in C++. For a detailed analysis : <a href="https://github.com/jinit24/Word-Predictor" >Code</a>
 				</div>
 
 				<div class="col-2"><i class="fa fa-tree" aria-hidden="true" style="font-size: 5rem;"></i></div>
@@ -99,9 +112,9 @@
 
 			<br><br>
 			<div class="row text-left">
-				<div class="display-4">Codavaj</div>
+				<div class="display-4">Codavaj<br></div>
 				<div class="col-10" style="font-size: 1.4rem;">
-					As the name suggests,it is the opposite of a javadoc.It uses the javadoc to generate the template for files. It uses beautifulsoup to parse the data and generate the text. For a detailed analysis : <a href="https://github.com/jinit24/Codavaj" class="text-light">Code</a>
+					As the name suggests,it is the opposite of a javadoc.It uses the javadoc to generate the template for files. It uses beautifulsoup to parse the data and generate the text. For a detailed analysis : <a href="https://github.com/jinit24/Codavaj">Code</a>
 				</div>
 				<div class="col-2"><i class="fa fa-book" aria-hidden="true" style="font-size: 5rem;"></i></div>
 			</div>
@@ -110,29 +123,34 @@
 
 		<!-- Code -->
 		<div class="code text-white" style="display: none;">
+
+			<h1 class="display-4">
+				A personal Pastebin of sorts. <br><br>
+			</h1> 
+
 			<div class="accordion" id="accordionExample" >
 			  <div class="card" style="background-color: black;">
 			    <div class="card-header" id="headingOne">
 			        <button class="btn btn-link btn-block text-left text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="box-shadow: none;">
-			          <div class="display-4">Data Structures</div>
+			          <h2>Data Structures</h2>
 			        </button>
 			    </div>
 
 			    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 			      <div class="card-body" style="height: 200px;overflow-x: auto;">
-			      		<div class="text-left" ng-repeat="x in DS_files" style="font-size: 1.3rem"><a ng-href="Code/DS/{{x}}" class="text-white">{{x}}</a></div>
+			      		<div class="text-left" ng-repeat="x in DS_files" style="font-size: 1.3rem"><a target="_blank" ng-href="Code/DS/{{x}}" class="text-white">{{x}}</a></div>
 			      </div>
 			    </div>
 			  </div>
 			  <div class="card" style="background-color: black;">
 			    <div class="card-header" id="headingTwo">
 			        <button class="btn btn-link btn-block text-left text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="box-shadow: none;">
-			          <div class="display-4">Algorithms</div>
+			          <h2>Algorithms</h2>
 			        </button>
 			    </div>
 			    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 			      <div class="card-body" style="height: 200px;overflow-x: auto;">
-			      		<div class="text-left" ng-repeat="x in Algo_files" style="font-size: 1.3rem"><a ng-href="Code/Algo/{{x}}" class="text-white">{{x}}</a></div>
+			      		<div class="text-left" ng-repeat="x in Algo_files" style="font-size: 1.3rem"><a target="_blank" ng-href="Code/Algo/{{x}}" class="text-white">{{x}}</a></div>
 			      </div>
 			    </div>
 			  </div>
@@ -142,10 +160,14 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('a').attr('target', '_blank');
+		});
 
 		$('.collapse').collapse()
 
 		function hideEverything(callback){
+			$("#Intro").fadeOut();
 			$('.MainPage').fadeOut();
 			$('.about').fadeOut();
 			$('.projects').fadeOut();
@@ -204,75 +226,81 @@
 
 		var instance = new TypeIt("#Intro", {
 		  strings: ["Hi, I'm Jinit!"],
-		  speed: 75,
+		  speed: 65,
 		  loop: false,
 	      waitUntilVisible: true,
 	      afterComplete: async (step, instance) => {
 	      	instance.destroy();
-	      	document.getElementsByClassName('About')[0].style.display = 'block';
-	      	document.getElementsByClassName('About')[0].style['border-right'] = '1px solid white';
-
+	      	$('.About')[0].style.display = 'block';
 	  	} 
-		}).pause(1000).delete().type("What can I help you with?").pause(2000).delete().go();
+		}).pause(1000).delete().type("What can I help you with?").pause(1000).go();
+
+		$('body').click(function(){
+			if(instance.is('started') && !instance.is('completed')){
+			  instance.reset();
+	      	  $('.About')[0].style.display = 'block';
+			}
+			$('#Intro')[0].innerHTML = "What can I help you with?";
+		});
 
 		var a = new TypeIt(".About", {
 		  strings: "About",
-		    speed: 75,
+		    speed: 65,
 			loop: false,
 		    waitUntilVisible: true,
 	      afterComplete: async (step, instance) => {
 	      	instance.destroy();
-	      	document.getElementsByClassName('Projects')[0].style.display = 'block';
-	      	document.getElementsByClassName('About')[0].style['border-right'] = '1px solid white';
+	      	$('.Projects')[0].style.display = 'block';
+	      	$('.About')[0].style['border-right'] = '1px solid white';
 
 	  	} 			
 		}).go();
 
 		var p = new TypeIt(".Projects", {
 		  strings: "Projects",
-		    speed: 75,
+		    speed: 65,
 			loop: false,
 		    waitUntilVisible: true,
 	      afterComplete: async (step, instance) => {
 	      	instance.destroy();
-	      	document.getElementsByClassName('Code')[0].style.display = 'block';
-	      	document.getElementsByClassName('Projects')[0].style['border-right'] = '1px solid white';
+	      	$('.Code')[0].style.display = 'block';
+	      	$('.Projects')[0].style['border-right'] = '1px solid white';
 
 	  	} 			
 		}).go();
 
 		var p = new TypeIt(".Code", {
 		  strings: "Codes",
-		    speed: 75,
+		    speed: 65,
 			loop: false,
 		    waitUntilVisible: true,
 	      afterComplete: async (step, instance) => {
 	      	instance.destroy();
-	      	document.getElementsByClassName('Blog')[0].style.display = 'block';
+	      	$(".Blog")[0].style.display = 'block';
 
 	  	} 			
 		}).go();
 
 		var b = new TypeIt(".Blog", {
 		  strings: "Blog",
-		    speed: 75,
+		    speed: 65,
 			loop: false,
 		    waitUntilVisible: true,
 	      afterComplete: async (step, instance) => {
 	      	instance.destroy();
-	      	document.getElementsByClassName('last_line')[0].style.display = 'block';
+	      	$('.last_line').fadeIn();
 	  	} 			
 		}).go();
 
-		var l = new TypeIt(".last_line", {
-		  strings: "Click on the above links to know more",
-		    speed: 60,
-			loop: false,
-		    waitUntilVisible: true,
-	      afterComplete: async (step, instance) => {
-	      	instance.destroy();
-	  	} 			
-		}).go();
+		// var l = new TypeIt(".last_line", {
+		//   strings: "Click on any of them to know more",
+		//     speed: 60,
+		// 	loop: false,
+		//     waitUntilVisible: true,
+	 //      afterComplete: async (step, instance) => {
+	 //      	instance.destroy();
+	 //  	} 			
+		// }).go();
 
 
 	</script>
