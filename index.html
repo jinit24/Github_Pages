@@ -15,10 +15,11 @@
 		opacity: 0;
 		transition: opacity .7s;
 	}
+
 </style>
 
 <body style="background-color: black">
-	<div class="container text-center text-white ">
+	<div class="container text-center text-white">
 			<nav class="navbar" style="display: none;border-bottom: 1px solid white;">
 			  <a class="navbar-brand text-left" style="font-size: 1.4rem;">Jinit Shah</a>
 			  	<div class=" justify-content-end">
@@ -30,46 +31,31 @@
 			</nav>
 			<br><br>
 
-		<div class=" display-3 mt-3 text-center text-white " id="Intro"></div>
+		<div class="display-3 mt-3 text-center text-white" id="Intro"></div>
 
-		<div class="MainPage mt-5 text-white">
+		<div class="MainPage text-white">
 			<br><br>
 			<div class="row" id="rows">
-				<a class="col-lg-4 mb-5 text-center text-white display-4 About"  href="About.html" style="display: none;" ></a>
-				<a class="col-lg-4 mb-5 text-center text-white display-4 Projects"  href="Projects.html" style="display: none;"></a>
-				<a class="col-lg-4 mb-5 text-center text-white display-4 Internships"  href="Internships.html" style="display: none;"></a>
+				<a class="col-lg-4 mb-5 text-center text-white display-4 About"  href="About.html" style="display: none;" >About</a>
+				<a class="col-lg-4 mb-5 text-center text-white display-4 Projects"  href="Projects.html" style="display: none;">Projects</a>
+				<a class="col-lg-4 mb-5 text-center text-white display-4 Internships"  href="Internships.html" style="display: none;">Internships</a>
+
 			</div>
 
-			<div class="row" id="rows">
+			<div class="row mb-5" id="rows">
 				<a class="col-lg-4"></a>
-				<a class="col-lg-4 mb-5 text-center text-white display-4 Blog"  href="Blog.html" style="display: none;"></a>
+				<a class="col-lg-4 text-center text-white display-4 Blog"  href="Blog.html" style="display: none;">Blog</a>
 			</div>
 
-			<div class="last_line display-4 mt-4" style="display: none;">Click on any of the above to know more.</div>
+			<div class="last_line display-4" style="display: none;">Click on any of the above to know more.</div>
 		</div>
+
+
+
 	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 	<script type="text/javascript">
-
-
-	    if($(document).width() <= 992){
-	    	$("#Intro").removeClass("display-3");
-	    	$("#Intro").addClass("display-1");
-      	
-      		$('.About')[0].style['border-left'] = '3px solid white';
-      		$('.Projects')[0].style['border-right'] = '3px solid white';
-      		$('.Internships')[0].style['border-left'] = '3px solid white';
-      		$('.Blog')[0].style['border-right'] = '3px solid white';
-
-
-	    	$(".col-lg-4").removeClass("display-4");
-	    	$(".col-lg-4").addClass("display-2");
-	    	$(".last_line").removeClass("display-4");
-	    	$(".last_line").addClass("display-2");
-
-	    }
-
 
 		var instance = new TypeIt("#Intro", {
 		  strings: ["Hi, I'm Jinit!"],
@@ -78,70 +64,52 @@
 	      waitUntilVisible: true,
 	      afterComplete: async (step, instance) => {
 	      	instance.destroy();
-	      	$('.About')[0].style.display = 'block';
+
+	      	if($(document).width() >=992){
+	     		$('.About')[0].style['border-right'] = '1px solid white';
+	     		$('.Projects')[0].style['border-right'] = '1px solid white';
+	     	}
+	     	else{
+	     		$('.About')[0].style['border-left'] = '1px solid white';
+	     		$('.Projects')[0].style['border-right'] = '1px solid white';
+	     		$('.Internships')[0].style['border-left'] = '1px solid white';
+	     		$('.Blog')[0].style['border-right'] = '1px solid white';
+	     	}
+
+	      	$('.About').fadeIn();
+	      	$('.Projects').fadeIn();
+	      	$('.Internships').fadeIn();
+	      	$('.Blog').fadeIn();
+	      	$('.last_line').fadeIn();
+
 	  	} 
 		}).pause(1000).delete().type("Welcome to my site!").pause(1000).go();
 
 		$('body').click(function(){
 			if(instance.is('started') && !instance.is('completed')){
 			  instance.reset();
-	      	  $('.About')[0].style.display = 'block';
+	      	  // $('.About')[0].style.display = 'block';
 			}
 			$('#Intro')[0].innerHTML = "Welcome to my site!";
-		});
 
-		var a = new TypeIt(".About", {
-		  strings: "About",
-		    speed: 65,
-			loop: false,
-		    waitUntilVisible: true,
-	      afterComplete: async (step, instance) => {
-	      	instance.destroy();
-	      	$('.Projects')[0].style.display = 'block';
-	      	
-	      	if($(document).width() >=992)
-	      		$('.About')[0].style['border-right'] = '1px solid white';
+	      	if($(document).width() >=992){
+	     		$('.About')[0].style['border-right'] = '1px solid white';
+	     		$('.Projects')[0].style['border-right'] = '1px solid white';
+	     	}
+	     	else{
+	     		$('.About')[0].style['border-left'] = '1px solid white';
+	     		$('.Projects')[0].style['border-right'] = '1px solid white';
+	     		$('.Internships')[0].style['border-left'] = '1px solid white';
+	     		$('.Blog')[0].style['border-right'] = '1px solid white';
+	     	}
 
-	  	} 			
-		}).go();
-
-		var p = new TypeIt(".Projects", {
-		  strings: "Projects",
-		    speed: 65,
-			loop: false,
-		    waitUntilVisible: true,
-	      afterComplete: async (step, instance) => {
-	      	instance.destroy();
-	      	$('.Internships')[0].style.display = 'block';
-
-	      	if($(document).width() >=992)
-		      	$('.Projects')[0].style['border-right'] = '1px solid white';
-
-	  	} 			
-		}).go();
-
-		var p = new TypeIt(".Internships", {
-		  strings: "Internships",
-		    speed: 65,
-			loop: false,
-		    waitUntilVisible: true,
-	      afterComplete: async (step, instance) => {
-	      	instance.destroy();
-	      	$('.Blog')[0].style.display = 'block';
-	  	} 			
-		}).go();
-
-
-		var b = new TypeIt(".Blog", {
-		  strings: "Blog",
-		    speed: 65,
-			loop: false,
-		    waitUntilVisible: true,
-	      afterComplete: async (step, instance) => {
-	      	instance.destroy();
+	      	$('.About').fadeIn();
+	      	$('.Projects').fadeIn();
+	      	$('.Internships').fadeIn();
+	      	$('.Blog').fadeIn();
 	      	$('.last_line').fadeIn();
-	  	} 			
-		}).go();
+
+		});
 
 		window.transitionToPage = function(href) {
 		    document.querySelector('body').style.opacity = 0
