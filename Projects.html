@@ -14,39 +14,58 @@
 		opacity: 0;
 		transition: opacity .7s;
 	}
+
+	.col-10{
+		padding:0px !important;
+	}
+
+	.navbar{
+		border-bottom:1px solid white !important;
+	}
+
+	.nav-link{
+		font-size: 1.5rem;
+	}
+
 </style>
 
 <body style="background-color: black;" >
-	<div class="container text-center text-white">
-		<nav class="navbar" style="border-bottom: 1px solid white;">
-		  <a class="navbar-brand text-left" style="font-size: 1.4rem;">Jinit Shah</a>
-		  	<div class=" justify-content-end">
-			  <a class="navbar-brand navAbout text-white" href="About.html" >About</a>
-			  <a class="navbar-brand navProjects text-white" href="Projects.html">Projects</a>
-			  <a class="navbar-brand navInternships text-white" href="Internships.html">Internships</a>
-			  <a class="navbar-brand navBlog text-white" href="Blog.html">Blog</a>
-			</div>
-		</nav>
+	<div class="container text-white">
+	<nav class="navbar navbar-expand-lg navbar-dark py-2 px-0">
+	  <a class="navbar-brand" href="index.html" style="font-size: 1.7rem">Jinit Shah</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	       <li class="nav-item"><a class="nav-link active" href="About.html">About</a></li>
+	       <li class="nav-item"><a class="nav-link active" href="Projects.html"><strong>Projects</strong></a></li>
+	       <li class="nav-item"><a class="nav-link active" href="Internships.html">Internships</a></li>
+	       <li class="nav-item"><a class="nav-link active" href="Blog.html">Blog</a></li>
+	    </ul>
+	  </div>
+	</nav>
 		<br><br>
 
 
 		<div class="projects text-white">
-			<div class="row text-left" style="padding-bottom:25px;border-bottom:1px solid white;">
+<!-- 			<div class="row text-left" style="padding-bottom:25px;border-bottom:1px solid white;">
 				<div class="display-4">Forecasting Models <br></div>
-				<div class="col-10" style="font-size: 1.4rem;">
+				<div class="col-10 p-0" style="font-size: 1.4rem;">
 					As a part of my internship at Paypal, I worked on forecast of wallet deposits. You can read more about it in the internships section.
 				</div>
 				<div class="col-2"><i class="fa fa-credit-card" aria-hidden="true" style="font-size: 4rem;"></i></div>
 			</div>
-
+ -->
 			<br>
 			<div class="row text-left" style="padding-bottom:25px;border-bottom:1px solid white;">
 				<div class="display-4">Web Scraping<br></div>
 				<div class="col-10" style="font-size: 1.4rem;">
 
-					It turns out that NSE doesn't allow you to download data for more than a year at a time. So it can become quite tedious to extract data for many companies. To avoid that, I wrote a <b>python package</b> which scrapes the data for stocks and indices and returns a panda dataframe. For a detailed analysis : <a href="https://github.com/NSEDownload/NSEDownload" >Code</a>.<br><br>
+					It turns out that NSE (National Stock Exchange) site doesn't allow you to download data for more than a year at a time. So it can become quite tedious to extract data for many companies. To avoid that, I wrote a python package which scrapes the data for stocks and indices and returns a panda dataframe. For a detailed analysis : <a href="https://github.com/NSEDownload/NSEDownload" >Code</a>.<br><br>
 
-					BSE allows data downloads for a longer time period. But downloading it everyday can be problem. To keep your data up to date, you can go through this : <a href="https://github.com/jinit24/BSE-New-Data">Code</a>. You can set up a cron job for the same.<br><br>
+					BSE (Bombay Stock Exchange) allows data downloads for a longer time period. But downloading it everyday can be problem. To keep your data up to date, you can go through this : <a href="https://github.com/jinit24/BSE-New-Data">Code</a>. You can set up a cron job for the same.<br><br>
 
 					As a part of my first year internship, I also devised an investment strategy based on moving averages: <a href="https://github.com/jinit24/Golden-and-Death-Crosses-on-NIFTY">Analysis</a>.				
 				</div>
@@ -56,7 +75,7 @@
 			<div class="row text-left" style="padding-bottom:25px;border-bottom:1px solid white;">
 				<div class="display-4">Tic-Tac-Toe<br></div>
 				<div class="col-10" style="font-size: 1.4rem;">
-					A simple 3x3 game which always makes the optimal move as first and second player. The UI is in curses and uses a <b>minimax algorithm</b> to get the best move. If played optimally, the game always ends in a draw. I know it got you thinking, for a detailed explanation and the code click <a href="https://jinit24.github.io/TicTacToe/" >here</a>
+					A simple 3x3 game which always makes the optimal move as first and second player. The UI is in curses and uses a minimax algorithm to get the best move. If played optimally, the game always ends in a draw. I know it got you thinking, for a detailed explanation and the code click <a href="Blog/TicTacToe.html" >here</a>.
 				</div>
 
 				<div class="col-2"><i class="fa fa-trophy" aria-hidden="true" style="font-size: 5rem;"></i></div>
@@ -66,7 +85,7 @@
 			<div class="row text-left" style="padding-bottom:25px;border-bottom:1px solid white;">
 				<div class="display-4">Word Predictor<br> </div>
 				<div class="col-10" style="font-size: 1.4rem;">
-					Given a word,it predicts 5 next closest words. It uses a data structure called <b>trie</b> (fancy term for a tree full of alphabets) and BFS . Written in C++. Deterministic algorithm and no ML involved. Nice, right? For a detailed analysis : <a href="https://github.com/jinit24/Word-Predictor" >Code</a>
+					Given a word,it predicts 5 next closest words. It uses a data structure called trie (fancy term for a tree full of alphabets) and BFS . Written in C++. Deterministic algorithm and no ML involved. Nice, right? For a detailed analysis : <a href="Blog/WordPredictor.html" >Code</a>.
 				</div>
 
 				<div class="col-2"><i class="fa fa-tree" aria-hidden="true" style="font-size: 5rem;"></i></div>
@@ -76,7 +95,7 @@
 			<div class="row text-left" style="padding-bottom:25px;border-bottom:1px solid white;">
 				<div class="display-4">Codavaj<br></div>
 				<div class="col-10" style="font-size: 1.4rem;">
-					As the name suggests, it is the <b>opposite of a javadoc</b>. It uses the javadoc to generate the template for files. It uses beautifulsoup to parse the data and generate the text. For a detailed analysis : <a href="https://github.com/jinit24/Codavaj">Code</a>
+					As the name suggests, it is the opposite of a javadoc. It uses the javadoc to generate the template for files. It uses beautifulsoup to parse the data and generate the text. For a detailed analysis : <a href="https://github.com/jinit24/Codavaj">Code</a>.
 				</div>
 				<div class="col-2"><i class="fa fa-book" aria-hidden="true" style="font-size: 5rem;"></i></div>
 			</div>
@@ -85,7 +104,7 @@
 			<div class="row text-left" style="padding-bottom:25px;border-bottom:1px solid white;">
 				<div class="display-4">Data Structures<br></div>
 				<div class="col-10" style="font-size: 1.4rem;">
-					A set of data structures and algorithms, that I use often. I'm sure you'll find them interesting : <a href="https://github.com/jinit24/Codes">Code</a>
+					A set of data structures and algorithms, that I use often. I'm sure you'll find them interesting : <a href="https://github.com/jinit24/Codes">Code</a>.
 				</div>
 				<div class="col-2"><i class="fa fa-pencil" aria-hidden="true" style="font-size: 5rem;"></i></div>
 			</div>
@@ -94,7 +113,7 @@
 			<div class="row text-left" style="padding-bottom:25px;">
 				<div class="display-4">This Site<br></div>
 				<div class="col-10" style="font-size: 1.4rem;">
-					Looks good right?
+					Looks good, right?
 				</div>
 				<div class="col-2"><i class="fa fa-check" aria-hidden="true" style="font-size: 5rem;"></i></div>
 			</div>
@@ -102,7 +121,13 @@
 			<br><br>
 		</div>
 	</div>	
+
 	<script type="text/javascript">
+
+	$(document).ready(function(){
+	  $('.projects a').attr('target', '_blank');
+	});
+
 	window.transitionToPage = function(href) {
 	    document.querySelector('body').style.opacity = 0
 	    setTimeout(function() { 

@@ -16,21 +16,38 @@
 		transition: opacity .7s;
 	}
 
+	.col-10{
+		padding:0px !important;
+	}
+
+	.navbar{
+		border-bottom:1px solid white !important;
+	}
+
+	.nav-link{
+		font-size: 1.5rem;
+	}
+
 </style>
 
 <body style="background-color: black">
-	<div class="container text-center text-white">
+	<div class="container text-white">
 
+	<nav class="navbar navbar-expand-lg navbar-dark py-2 px-0">
+	  <a class="navbar-brand" href="index.html" style="font-size: 1.7rem">Jinit Shah</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
 
-		<nav class="navbar" style="border-bottom: 1px solid white;">
-		  <a class="navbar-brand text-left" style="font-size: 1.4rem;">Jinit Shah</a>
-		  	<div class=" justify-content-end">
-			  <a class="navbar-brand navAbout text-white" href="About.html" >About</a>
-			  <a class="navbar-brand navProjects text-white" href="Projects.html">Projects</a>
-			  <a class="navbar-brand navInternships text-white" href="Internships.html">Internships</a>
-			  <a class="navbar-brand navBlog text-white" href="Blog.html">Blog</a>
-			</div>
-		</nav>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	       <li class="nav-item"><a class="nav-link active" href="About.html">About</a></li>
+	       <li class="nav-item"><a class="nav-link active" href="Projects.html">Projects</a></li>
+	       <li class="nav-item"><a class="nav-link active" href="Internships.html"><strong>Internships</strong></a></li>
+	       <li class="nav-item"><a class="nav-link active" href="Blog.html">Blog</a></li>
+	    </ul>
+	  </div>
+	</nav>
 		<br><br>
 
 
@@ -43,11 +60,11 @@
 						<div style="font-size: 1.4rem;">
 							As a part of my internship at Paypal, I worked on forecast of wallet deposits. <br>
 
-							Developed a couple of models : A<b>RIMA and regression based model</b>. Wrote the ARIMA model from scratch in python. It was well suited to the data and gave accurate results. <br>
+							Developed a couple of models : ARIMA (Auto-Regressive Integrated Moving-Average) and regression based model. Wrote the ARIMA model from scratch in python. It was well suited to the data and gave accurate results. <br>
 
 							 I wrote an article on it, you can read it <a href="Blog/ARIMA.html">here</a>. The complete project report of our group can be found <a href="https://docs.google.com/document/d/1vNBG_gi9bgnCMUhL26S9cthIxy4rpulBY366DicSiyU/edit#heading=h.x1yll2pyytfg">here</a>. For a detailed analysis of the code, click <a href="https://github.com/jinit24/ARIMA-Model">here</a>.<br>
 
-							<b>Technologies used : Python (Numpy, Pandas) <br></b>
+							<b>Technologies used : Python (Numpy, Pandas) <br></b><br>
 						</div>
 				</div>
 			</div>
@@ -59,15 +76,15 @@
 
 					<div style="font-size: 1.6rem;">May 2020 - June 2020</div>
 					<div style="font-size: 1.4rem;">
-						Worked on developing a <b>CRM (Customer Relationship Management) software</b>. It tracks the complete journey of a lead to a client. <br><b>Technologies used - .NET framework for back-end and AngularJS for front-end development.</b>
+						Worked on developing a CRM (Customer Relationship Management) software. It tracks the complete journey of a lead to a client. <br><b>Technologies used - .NET framework for back-end and AngularJS for front-end development.</b>
 					</div>
 
 					<br>
 					<div style="font-size: 1.6rem;margin-top: 25px">May 2019 - June 2019</div>
 					<div style="font-size: 1.4rem;">
 
-						Devised an investment strategy based on the analysis of <b>Golden and Death crosses</b> on NIFTY-50 and S&P-500. For a detailed analysis : <a href="https://github.com/jinit24/Golden-and-Death-Crosses-on-NIFTY">code</a>.<br>
-						Created an <b>automated system</b> which downloads historical data, calculates the rolling returns for different periods of time and updates the data every week for major indices (BSE, NIFTY and major world indices) : <a href="https://github.com/jinit24/BSE-New-Data">code</a>. <br>
+						Devised an investment strategy based on the analysis of Golden and Death crosses on NIFTY-50 and S&P-500. For a detailed analysis : <a href="https://github.com/jinit24/Golden-and-Death-Crosses-on-NIFTY">code</a>.<br>
+						Created an automated system which downloads historical data, calculates the rolling returns for different periods of time and updates the data every week for major indices (BSE, NIFTY and major world indices) : <a href="https://github.com/jinit24/BSE-New-Data">code</a>. <br>
 
 						<b>Technologies used : Python(Numpy, Pands, Matplotlib) and Selenium <br></b>
 
@@ -80,6 +97,12 @@
 	</div>	
 
 	<script type="text/javascript">
+
+		$(document).ready(function(){
+		  $('.internships a').attr('target', '_blank');
+		});
+
+
 		window.transitionToPage = function(href) {
 		document.querySelector('body').style.opacity = 0
 		setTimeout(function() { 

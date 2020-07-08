@@ -12,15 +12,174 @@
 	body{
 	
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-	opacity: 0;
-	transition: opacity .7s;
 	}
 
-</style>
-<body style="background-image: url(https://i.pinimg.com/236x/50/da/2f/50da2f13aee325b684470d38f0fcc43f.jpg);">
+	body .gist .highlight {
+    background: #272822;
+}
+body .gist .blob-num,
+body .gist .blob-code-inner,
+body .gist .pl-s2,
+body .gist .pl-stj {
+    color: #f8f8f2;
+}
+body .gist .pl-c1 {
+    color: #ae81ff;
+}
+body .gist .pl-enti {
+    color: #a6e22e;
+    font-weight: 700;
+}
+body .gist .pl-st {
+    color: #66d9ef;
+}
+body .gist .pl-mdr {
+    color: #66d9ef;
+    font-weight: 400;
+}
+body .gist .pl-ms1 {
+    background: #fd971f;
+}
+body .gist .pl-c,
+body .gist .pl-c span,
+body .gist .pl-pdc {
+    color: #75715e;
+    font-style: italic;
+}
+body .gist .pl-cce,
+body .gist .pl-cn,
+body .gist .pl-coc,
+body .gist .pl-enc,
+body .gist .pl-ens,
+body .gist .pl-kos,
+body .gist .pl-kou,
+body .gist .pl-mh .pl-pdh,
+body .gist .pl-mp,
+body .gist .pl-mp1 .pl-sf,
+body .gist .pl-mq,
+body .gist .pl-pde,
+body .gist .pl-pse,
+body .gist .pl-pse .pl-s2,
+body .gist .pl-mp .pl-s3,
+body .gist .pl-smi,
+body .gist .pl-stp,
+body .gist .pl-sv,
+body .gist .pl-v,
+body .gist .pl-vi,
+body .gist .pl-vpf,
+body .gist .pl-mri,
+body .gist .pl-va,
+body .gist .pl-vpu {
+    color: #66d9ef;
+}
+body .gist .pl-cos,
+body .gist .pl-ml,
+body .gist .pl-pds,
+body .gist .pl-s,
+body .gist .pl-s1,
+body .gist .pl-sol {
+    color: #e6db74;
+}
+body .gist .pl-e,
+body .gist .pl-ef,
+body .gist .pl-en,
+body .gist .pl-enf,
+body .gist .pl-enm,
+body .gist .pl-entc,
+body .gist .pl-entm,
+body .gist .pl-eoac,
+body .gist .pl-eoac .pl-pde,
+body .gist .pl-eoi,
+body .gist .pl-mai .pl-sf,
+body .gist .pl-mm,
+body .gist .pl-pdv,
+body .gist .pl-som,
+body .gist .pl-sr,
+body .gist .pl-vo {
+    color: #a6e22e;
+}
+body .gist .pl-ent,
+body .gist .pl-eoa,
+body .gist .pl-eoai,
+body .gist .pl-eoai .pl-pde,
+body .gist .pl-k,
+body .gist .pl-ko,
+body .gist .pl-kolp,
+body .gist .pl-mc,
+body .gist .pl-mr,
+body .gist .pl-ms,
+body .gist .pl-s3,
+body .gist .pl-smc,
+body .gist .pl-smp,
+body .gist .pl-sok,
+body .gist .pl-sra,
+body .gist .pl-src,
+body .gist .pl-sre {
+    color: #f92672;
+}
+body .gist .pl-mb,
+body .gist .pl-pdb {
+    color: #e6db74;
+    font-weight: 700;
+}
+body .gist .pl-mi,
+body .gist .pl-pdi {
+    color: #f92672;
+    font-style: italic;
+}
+body .gist .pl-pdc1,
+body .gist .pl-scp {
+    color: #ae81ff;
+}
+body .gist .pl-sc,
+body .gist .pl-sf,
+body .gist .pl-mo,
+body .gist .pl-entl {
+    color: #fd971f;
+}
+body .gist .pl-mi1,
+body .gist .pl-mdht {
+    color: #a6e22e;
+    background: rgba(0, 64, 0, .5);
+}
+body .gist .pl-md,
+body .gist .pl-mdhf {
+    color: #f92672;
+    background: rgba(64, 0, 0, .5);
+}
+body .gist .pl-mdh,
+body .gist .pl-mdi {
+    color: #a6e22e;
+    font-weight: 400;
+}
+body .gist .pl-ib,
+body .gist .pl-id,
+body .gist .pl-ii,
+body .gist .pl-iu {
+    background: #a6e22e;
+    color: #272822;
+}
 
-	<div class="container">
-		<div class="display-4 text-left Heading p-2" style="border-bottom: 1px solid white;background-color: white;">Word Predictor - Tries</div>
+.display-4,.display-3{
+    color: #a6e22e;
+}
+
+.container{
+	outline: 2px solid white;
+}
+
+	@media only screen and (max-device-width: 991px) {
+
+		.Body{
+			font-size: 2rem !important;
+		}
+    }
+
+</style>
+<body style="background: #272822;">
+
+	<div class="container my-5 p-1">
+		<div class="display-4 text-center Heading p-2" style="border-bottom: 1px solid white;background-color: white;">Word Predictor - Tries</div>
 		<div class="Body p-3 bg-white">
 				<div class="Date"><h2>30 June, 2020</h2></div>
 				<br>
@@ -32,13 +191,13 @@
 
 				<div class="display-4"> Node </div> <br>
 
-				I'll be working only on lowercase letters. Hence, total alphabets that we have are 26. The value each node stores is decided by the path taken from its parent node. So if take the 0th path, the node stores 'a'. So each node has 26 children, some might be null. We also use two other values : end and size. End gives the number of words ending at this node. Size gives the size of the sub-graph rooted at this node, so it is basically the number of words which use this node and and don't end here.<br><br>
+				I'll be working only on lowercase letters. Hence, total alphabets that we have are 26. The value each node stores is decided by the path taken from its parent node. So if we take the 0th path, the node stores 'a'. So each node has 26 children, some might be null. We also use two other values : end and size. End gives the number of words ending at this node. Size gives the size of the sub-graph rooted at this node, so it is basically the number of words which use this node and and don't end here.<br><br>
 
 				<script  src="https://gist.github.com/jinit24/4d4614069fa081ff71f9aedbedf3f14a.js"></script>
 
 				<div class="display-4"> Insertion & Search</div> <br>
 
-				Instead of working with alphabets, we can reference them using numbers. We also add a root node which is the starting point. While inserting a string to the trie, we start with the first letter. We check if that child is not null, and if not move to it. If it is null, then we create a new node there. We keep repeating process till we reach the end of the string. At the last node, we increase the value of its end. So this tells us a word ended here. <br><br>
+				Instead of working with alphabets, we can reference them using numbers. We also add a root node which is the starting point. While inserting a string to the trie, we start with the first letter. We check if that child is not null, and move to it if it isn't. If it is null, then we create a new node there. We keep repeating this process till we reach the end of the string. At the last node, we increase the value of its end. So this tells us a word ended here. <br><br>
 
 				Searching is very similar to insertion. We keep travelling till either we reach the end of the string or a null pointer. If we encounter no null pointers and the node that we reach has end>0, then we have found this word. Otherwise, this word was not pushed into the trie.<br><br>
 
@@ -46,13 +205,13 @@
 
 				<div class="display-4"> Next Closest Words </div> <br>
 
-				So, now that we know how to search for words. We know have to find the next closest words. First,we push in all the words that we could possibly have. So basically the whole dictionary. Then we take in a word, which we have to complete or predict the end of. So, once added, we start searching. For the next closest word, we will have to use some traversal technique. DFS or BFS ? But DFS will first traverse along one path and then move on the next child. This is different than what we want. We use BFS, as it traverse the layer completely and then moves on to the next one. We just check if a word ends there and add it to our predictions.<br><br>
+				So, now we know how to search for words. We now have to find the next closest words. First,we push in all the words that we could possibly have. So basically the whole dictionary. Then we take in a word, which we have to complete or predict the end of. So, once added, we start searching. For the next closest word, we will have to use some traversal technique. DFS or BFS ? But DFS will first traverse along one path and then move on the next child. This is different than what we want. We use BFS, as it traverse the layer completely and then moves on to the next one. We just check if a word ends there and add it to our predictions.<br><br>
 
 				<script src="https://gist.github.com/jinit24/803c6a0a80ef0474a2c675f69351766e.js"></script>
 
 
 				<div class="display-4"> Improvements </div> <br>
-				Right now, it just predicts the closest words. But in reality we would want according to usage. If one word is being used more, you would want to predict that instead of the closest. We could add another parameter called frequency. While traversing we could give preference to the one with higher frequency instead of plain BFS. A lot more needs to be figured out in this case. Coming soon.<br><br>
+				Right now, it just predicts the closest words. But in reality we would want it according to usage. If one word is being used more, you would want to predict that instead of the closest. We could add another parameter called frequency. While traversing preference can be given to the one with higher frequency instead of plain BFS. A lot more needs to be figured out in this case. Coming soon.<br><br>
 
 				If you have any queries or suggestions, feel free to hit me up at : dornumofficial@gmail.com. For the complete code , you can click <a
 				href="https://github.com/jinit24/Word-Predictor">here</a>
@@ -60,17 +219,5 @@
 		</div>
 
 	</div>
-	<script type="text/javascript">
-	window.transitionToPage = function(href) {
-	    document.querySelector('body').style.opacity = 0
-	    setTimeout(function() { 
-	        window.location.href = href
-	    }, 700)
-	}
-
-	document.addEventListener('DOMContentLoaded', function(event) {
-    document.querySelector('body').style.opacity = 1
-	})
-	</script>
 </body>
 </html>

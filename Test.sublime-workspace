@@ -1,0 +1,1376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-origin\tproperty"
+			],
+			[
+				"r",
+				"repeat-y\tbackground-repeat"
+			],
+			[
+				"bac",
+				"background-repeat\tproperty"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"backg",
+				"background-size\tproperty"
+			],
+			[
+				"te",
+				"text-white"
+			],
+			[
+				"ds",
+				"display\tproperty"
+			],
+			[
+				"text",
+				"text-left"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"inter",
+				"internships"
+			],
+			[
+				"In",
+				"Internships"
+			],
+			[
+				"width",
+				"max-width\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"fi",
+				"files"
+			],
+			[
+				"coe",
+				"code"
+			],
+			[
+				"folde",
+				"folders"
+			],
+			[
+				"NA",
+				"navAbout"
+			],
+			[
+				"fad",
+				"fadeOut"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"ou",
+				"outline-color\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"di",
+				"display-3"
+			],
+			[
+				"cl",
+				"client_secret"
+			],
+			[
+				"Fil",
+				"FileContent"
+			],
+			[
+				"Fi",
+				"FileName"
+			],
+			[
+				"f",
+				"form-control"
+			],
+			[
+				"btn",
+				"btn-outline-success"
+			],
+			[
+				"T",
+				"TextCircle"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Fir",
+				"FirstDB"
+			],
+			[
+				"ma",
+				"marked"
+			],
+			[
+				"ed",
+				"edges"
+			],
+			[
+				"e",
+				"edges"
+			],
+			[
+				"no",
+				"node_count"
+			],
+			[
+				"be",
+				"best_val"
+			],
+			[
+				"NE",
+				"NextMoveNaive"
+			],
+			[
+				"lo",
+				"lowest_val"
+			],
+			[
+				"Nex",
+				"NextWithPruning"
+			],
+			[
+				"de",
+				"depth"
+			],
+			[
+				"cos",
+				"max_cost"
+			],
+			[
+				"arr",
+				"arr_x"
+			],
+			[
+				"mi",
+				"min_i"
+			],
+			[
+				"min",
+				"min_i"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"temp",
+				"temp_cost"
+			],
+			[
+				"ar",
+				"arr_x"
+			],
+			[
+				"ne",
+				"next_key"
+			],
+			[
+				"ite",
+				"items"
+			],
+			[
+				"Arr",
+				"arr1"
+			],
+			[
+				"n",
+				"nullptr"
+			],
+			[
+				"puh",
+				"push_back"
+			],
+			[
+				"re",
+				"removeNonAlpha"
+			],
+			[
+				"pus",
+				"push_back"
+			],
+			[
+				"trafor",
+				"transform\tproperty"
+			],
+			[
+				"tra",
+				"transform-origin\tproperty"
+			],
+			[
+				"ro",
+				"rotateZ()\ttransform"
+			],
+			[
+				"rot",
+				"rotateY()\ttransform"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"shad",
+				"box-shadow\tproperty"
+			],
+			[
+				"num",
+				"num_paths"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"bin",
+				"binaryE"
+			],
+			[
+				"text-",
+				"text-right"
+			],
+			[
+				"Sin",
+				"Signup"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"for",
+				"form-row"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"ve",
+				"verification"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"cno",
+				"console"
+			],
+			[
+				"CON",
+				"console"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"usr",
+				"Username"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"inl",
+				"inline-flex\tdisplay"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"side",
+				"sidebar"
+			],
+			[
+				"p",
+				"padding-bottom\tproperty"
+			],
+			[
+				"log",
+				"logTimes"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"Wron",
+				"WrongPass"
+			],
+			[
+				"lg",
+				"login"
+			],
+			[
+				"login",
+				"logincontroller"
+			],
+			[
+				"anu",
+				"angular"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"background-",
+				"background-size\tproperty"
+			],
+			[
+				"sig",
+				"Signup"
+			],
+			[
+				"S",
+				"SortDouble"
+			],
+			[
+				"new",
+				"newEq"
+			],
+			[
+				"mid",
+				"mid_prev"
+			],
+			[
+				"beg",
+				"begin"
+			],
+			[
+				"end",
+				"endp"
+			],
+			[
+				"fac",
+				"fact"
+			],
+			[
+				"ncr",
+				"nCrModPFermat"
+			],
+			[
+				"ind",
+				"indMax"
+			],
+			[
+				"pre",
+				"PreWeights"
+			],
+			[
+				"to",
+				"toBinary"
+			],
+			[
+				"lca",
+				"lcaBL"
+			],
+			[
+				"tre",
+				"tree"
+			],
+			[
+				"tr",
+				"tree_size"
+			],
+			[
+				"in",
+				"indices"
+			],
+			[
+				"an",
+				"angles"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"c",
+				"checkP"
+			],
+			[
+				"val",
+				"val"
+			],
+			[
+				"has",
+				"hash"
+			],
+			[
+				"a",
+				"ans"
+			],
+			[
+				"is",
+				"isAnc"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"push",
+				"push"
+			],
+			[
+				"int",
+				"intersection"
+			],
+			[
+				"it",
+				"intersect"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Index.html",
+			"settings":
+			{
+				"buffer_size": 4671,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "About.html",
+			"settings":
+			{
+				"buffer_size": 3809,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Projects.html",
+			"settings":
+			{
+				"buffer_size": 6180,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Internships.html",
+			"settings":
+			{
+				"buffer_size": 4167,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Blog/ARIMA.html",
+			"settings":
+			{
+				"buffer_size": 5628,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Blog.html",
+			"settings":
+			{
+				"buffer_size": 3010,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Blog/WordPredictor.html",
+			"settings":
+			{
+				"buffer_size": 5111,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Blog/TicTacToe.html",
+			"settings":
+			{
+				"buffer_size": 6213,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"",
+				"Set Syntax: C++"
+			],
+			[
+				"syntax: J",
+				"Set Syntax: Java"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"g++ round.cpp"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jinit/Coding/Web/Test/TicTacToe.html",
+		"/home/jinit/Coding/Web/index.html",
+		"/home/jinit/Coding/Web/Test/.git/config",
+		"/home/jinit/Coding/Web/Test/package.json",
+		"/home/jinit/Coding/Web/Test/angular.js",
+		"/home/jinit/Coding/Lab material/Lab4-master-1e6abe231e5cea8bafb37682a6bbffde8752488e/docs/House.java",
+		"/home/jinit/Coding/labpractice/codavaj.py",
+		"/home/jinit/Coding/Lab material/Lab4-master-1e6abe231e5cea8bafb37682a6bbffde8752488e/docs/codavajnested.py",
+		"/home/jinit/Coding/WordPredictor.cpp",
+		"/home/jinit/Coding/DS/trieNew.cpp",
+		"/home/jinit/Coding/Web/fierce-harbor-43707/package.json",
+		"/home/jinit/Coding/Web/fierce-harbor-43707/app.js",
+		"/home/jinit/Coding/Web/Test/app.js",
+		"/home/jinit/Coding/Web/Test/package-lock.json",
+		"/home/jinit/Coding/Web/Test/routes/index.js",
+		"/home/jinit/Coding/Web/Test/Code/Algo/Graphs/bipartiteness.cpp",
+		"/home/jinit/Coding/Web/Test/Code/Algo/temp.cpp",
+		"/home/jinit/Coding/Web/Test/About.html",
+		"/home/jinit/Coding/Web/Test/Code/Algo/Manacher.cpp",
+		"/home/jinit/Coding/Algo/Random/temp.cpp",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/TextCircle/TextCircle.js",
+		"/home/jinit/Coding/Web/DriveBin/credentials.json",
+		"/home/jinit/Coding/Web/DriveBin/app.js",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/TextCircle/TextCircle.css",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/TextCircle/settings.json",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/TextCircle/TextCircle.html",
+		"/home/jinit/.cache/.fr-cKMh7I/week_1_textcircle_end_module_1/textcircle.js",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/TextCircle/Index.html",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/TextCircle/.meteor/local/build/programs/server/packages/mizzao_sharejs.js",
+		"/home/jinit/.meteor/packages/mizzao_sharejs/.0.9.0.1p43hj4.1zy6++os+web.browser+web.cordova/os/sharejs-server.js",
+		"/home/jinit/.meteor/packages/mizzao_sharejs/.0.9.0.1p43hj4.1zy6++os+web.browser+web.cordova/web.browser/sharejs-server.js",
+		"/home/jinit/.meteor/packages/mizzao_sharejs/.0.9.0.1p43hj4.1zy6++os+web.browser+web.cordova/web.cordova/sharejs-server.js",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/TextCircle/package.json",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/TextCircle/.meteor/local/build/programs/server/packages/mizzao_sharejs-codemirror.js",
+		"/home/jinit/.meteor/packages/mizzao_sharejs/.0.9.0.1p43hj4.1zy6++os+web.browser+web.cordova/web.cordova/sharejs-client.js",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/TextCircle/imports/api/collections.js",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/TextCircle/server/main.js",
+		"/home/jinit/Coding/Web/CRMdbCtrl.js",
+		"/home/jinit/Coding/Web/CRMDashboard.html",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/textcircle.html",
+		"/home/jinit/Coding/Web/Course/week_1_starter_code/textcircle.js",
+		"/home/jinit/Coding/Web/Finpeg/uat/ifa.html",
+		"/home/jinit/Coding/Web/Finpeg/uat/js/angular/config.js",
+		"/home/jinit/Coding/Web/Finpeg/uat/views/ifa/CRMProductWise.html",
+		"/home/jinit/Coding/Web/Finpeg/uat/js/angular/ifa/CRMProductWiseCtrl.js",
+		"/home/jinit/Downloads/leadsCtrl.js",
+		"/home/jinit/Downloads/getcrmleadsbyprd.json",
+		"/home/jinit/Coding/PT07X.cpp",
+		"/home/jinit/Coding/DS/DSU.cpp",
+		"/home/jinit/Coding/coloring/solver.py",
+		"/home/jinit/Coding/NewTicTacToe.py",
+		"/home/jinit/Coding/TicTacToe.py",
+		"/home/jinit/Coding/knapsack.cpp",
+		"/home/jinit/Coding/knapsack/solver.py",
+		"/home/jinit/.cache/.fr-94qjCJ/week_1_starter_code/textcircle.js",
+		"/home/jinit/Downloads/crmDashboardCtrl.js",
+		"/home/jinit/Downloads/temp",
+		"/home/jinit/Downloads/CRMNew(1).html",
+		"/home/jinit/Coding/knapsack/solver.pyc",
+		"/home/jinit/Coding/Algo/MedianSortedArr.cpp",
+		"/home/jinit/Downloads/segsweep.cpp",
+		"/media/jinit/Windows8_OS/bootTel.dat",
+		"/home/jinit/Coding/Algo/Graphs/treedfs.cpp",
+		"/home/jinit/Coding/Lab material/Lab8-master-5bddd9303f65abd3b38713216d8eca5c8f802ee0/docs/codavajnested.py",
+		"/home/jinit/Coding/Algo/Sorting and Searching/FloorAndCeil.cpp",
+		"/home/jinit/Coding/db.py",
+		"/home/jinit/Coding/inc.cpp",
+		"/home/jinit/Coding/functionsAgain.cpp",
+		"/home/jinit/Coding/rightTriangles.cpp",
+		"/home/jinit/Coding/reposts.cpp",
+		"/home/jinit/Coding/sqrtDuplicate.cpp",
+		"/home/jinit/Coding/subMatrixZero.cpp",
+		"/home/jinit/Coding/MaxRecinBinMat.cpp",
+		"/home/jinit/Coding/MaxProd.cpp",
+		"/home/jinit/Coding/Anton.cpp",
+		"/home/jinit/Coding/KTreePaths.cpp",
+		"/home/jinit/Coding/1337.cpp",
+		"/home/jinit/Coding/commonNumber.cpp",
+		"/home/jinit/Coding/brokenKey.cpp",
+		"/home/jinit/Coding/ncrEfficient.cpp",
+		"/home/jinit/Coding/Algo/SQandLL/nextPermutation.cpp",
+		"/home/jinit/Coding/seinfield.cpp",
+		"/home/jinit/Coding/GSS3.cpp",
+		"/home/jinit/Coding/DS/avl.cpp",
+		"/home/jinit/Coding/bugsLifeSolved.cpp",
+		"/home/jinit/Coding/walking.cpp",
+		"/home/jinit/Downloads/Intervals Handling.cpp",
+		"/home/jinit/Coding/overlappingIntervals.cpp",
+		"/home/jinit/Coding/code2.cpp",
+		"/home/jinit/Coding/GSS1New.cpp",
+		"/home/jinit/Coding/sasha.cpp",
+		"/home/jinit/Coding/journey.cpp",
+		"/home/jinit/Coding/quasibi.cpp",
+		"/home/jinit/Coding/phil.cpp",
+		"/home/jinit/Coding/Algo/Graphs/bipartiteNew.cpp",
+		"/home/jinit/Coding/Algo/Graphs/bfs.cpp",
+		"/home/jinit/Coding/makemaze.cpp",
+		"/home/jinit/Coding/Algo/Sorting and Searching/HeapSort.cpp",
+		"/home/jinit/Coding/valid.cpp",
+		"/home/jinit/Coding/Algo/SQandLL/BalancedParenthesis.cpp",
+		"/home/jinit/Coding/spiral.cpp",
+		"/home/jinit/Coding/stairs.cpp",
+		"/home/jinit/Coding/lightsOut.cpp",
+		"/home/jinit/Coding/colorg.cpp",
+		"/home/jinit/Coding/Bearand3m.cpp",
+		"/home/jinit/Coding/rect.cpp",
+		"/home/jinit/Coding/foxAndNames.cpp",
+		"/home/jinit/Coding/Algo/Graphs/kahnsTopSort.cpp",
+		"/home/jinit/Coding/data.txt",
+		"/home/jinit/Coding/dict.txt",
+		"/home/jinit/Downloads/AddEditCtrl.js",
+		"/home/jinit/Coding/DS/SuffixArray.cpp",
+		"/home/jinit/Coding/Algo/Sorting and Searching/CountingSort.cpp",
+		"/home/jinit/Coding/DS/binarytrie.cpp",
+		"/home/jinit/Coding/stringPrefix.cpp",
+		"/home/jinit/Coding/stringcon.cpp",
+		"/home/jinit/Coding/naturalSelction.cpp",
+		"/home/jinit/Coding/DS/trie.cpp",
+		"/home/jinit/Coding/round.cpp",
+		"/home/jinit/Coding/Algo/LongestPalSubseq.cpp",
+		"/home/jinit/Coding/news.cpp",
+		"/home/jinit/Coding/AllPaths.cpp",
+		"/home/jinit/Coding/hard.cpp",
+		"/home/jinit/Coding/Algo/Graphs/StronglyConnectedComp.cpp",
+		"/home/jinit/Coding/tfriends.cpp",
+		"/home/jinit/Coding/Algo/Graphs/kosarajuNew.cpp",
+		"/home/jinit/Coding/pass.cpp",
+		"/home/jinit/Coding/postfromprein.cpp"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"<b>",
+			"alor",
+			"Analysis",
+			"python",
+			"Golden",
+			"internships",
+			",the",
+			",you",
+			"img",
+			".",
+			",",
+			"maths",
+			"print",
+			"class",
+			"aclient",
+			"internship",
+			"img",
+			"text-light",
+			"(\"\",",
+			"lite",
+			"display",
+			"d-none",
+			"jquery",
+			"export const ShareJS = ShareJS || {};",
+			"Progra",
+			"5490",
+			"Products\":\"4",
+			"Products\":\"3",
+			"Products\":\"2",
+			"Products\":\"3",
+			"Products\":\"1",
+			"Products\":1",
+			"Products\":",
+			"products",
+			"products\"",
+			"products\":",
+			"NextMove",
+			"min_cost",
+			"NextM",
+			"NextM\t",
+			"best_cost",
+			"print",
+			"return",
+			"else if",
+			"row",
+			"col",
+			"container2",
+			"container1",
+			"heat",
+			"arr2",
+			"\t\n",
+			"AUM build",
+			"AUM",
+			"cout",
+			"std::",
+			"lg",
+			"col-4",
+			"col-3",
+			"text-",
+			"text-lef",
+			"f",
+			"d",
+			"r",
+			"sy",
+			"sx",
+			"cout",
+			"long long ",
+			"/dashboard",
+			"check",
+			"v2",
+			"taken",
+			"form",
+			"c",
+			"display",
+			"'",
+			"sidenav",
+			"undraw",
+			"}}</",
+			"head",
+			"error",
+			" \n",
+			"form",
+			"prims",
+			"count",
+			"31",
+			"temp.next",
+			"s[0]",
+			"\"",
+			"\n  ",
+			"L",
+			"];\n",
+			"firstApp",
+			"New",
+			")\n",
+			"maxDepth",
+			"long long",
+			"h2",
+			"pusher",
+			"seman",
+			"lld",
+			"find",
+			"hash",
+			"find",
+			",",
+			"1h",
+			"0h",
+			"\"",
+			"int",
+			"xrang",
+			"print",
+			"cos",
+			"it",
+			"min",
+			".s",
+			".fi",
+			".f",
+			"f",
+			"s",
+			"mini",
+			"minK",
+			"count",
+			"pair",
+			"arr",
+			"heap",
+			"lld",
+			"long long",
+			"int",
+			"\t"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "About.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Projects.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6180,
+								6180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 629.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Internships.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4167,
+								4167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 829.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Blog/ARIMA.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								879,
+								879
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 427.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Blog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3010,
+								3010
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Blog/WordPredictor.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								961,
+								961
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 50.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Blog/TicTacToe.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6053,
+								6053
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 58.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Test.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Coding/WordPredictor.cpp"
+			],
+			[
+				"das",
+				"~/Coding/Web/Complete/dashbboard.html"
+			],
+			[
+				"ncr",
+				"~/Coding/ncrEfficient.cpp"
+			],
+			[
+				"app",
+				"~/Coding/Web/Complete/app.js"
+			],
+			[
+				"prims",
+				"~/Coding/Algo/Graphs/prims.cpp"
+			],
+			[
+				"r",
+				"~/Coding/Algo/Graphs/dijkstraLL.cpp"
+			],
+			[
+				"kahn",
+				"~/Coding/Algo/Graphs/kahnsTopSort.cpp"
+			],
+			[
+				"bfs",
+				"~/Downloads/gridbfs.cpp"
+			],
+			[
+				"lca",
+				"~/Coding/lcaBL.cpp"
+			],
+			[
+				"prim",
+				"~/Coding/prime3.cpp"
+			],
+			[
+				"pro",
+				"~/Coding/prodSeg.cpp"
+			],
+			[
+				"gir",
+				"~/Downloads/gridbfs.cpp"
+			],
+			[
+				"tre",
+				"~/Coding/treedfs.cpp"
+			],
+			[
+				"segt",
+				"~/Coding/DS/segmentTrees.cpp"
+			],
+			[
+				"tree",
+				"~/Coding/treedfs.cpp"
+			],
+			[
+				"pri",
+				"~/Coding/Algo/Graphs/prims.cpp"
+			],
+			[
+				"dij",
+				"~/Coding/Algo/Graphs/dijkstraLL.cpp"
+			],
+			[
+				"MIN",
+				"~/Coding/Machine Learning/min-char-rnn.py"
+			],
+			[
+				"va",
+				"~/Coding/valid.cpp"
+			],
+			[
+				"news",
+				"~/Coding/news.cpp"
+			],
+			[
+				"pos",
+				"~/Coding/postfromprein.cpp"
+			],
+			[
+				"jo",
+				"~/Coding/journey.cpp"
+			],
+			[
+				"di",
+				"~/Coding/Algo/Graphs/dijkstraLL.cpp"
+			],
+			[
+				".cpp",
+				"~/Coding/new.cpp"
+			],
+			[
+				"Tic",
+				"~/Coding/TicTacToe.py"
+			],
+			[
+				"qui",
+				"~/Coding/Algo/Sorting and Searching/QuickSort.cpp"
+			],
+			[
+				"G",
+				"~/Coding/Gsoc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

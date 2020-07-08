@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello!</title>
+	<title>Jinit Shah</title>
 </head>
 <meta charset="utf-8" /> 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -15,11 +15,10 @@
 		opacity: 0;
 		transition: opacity .7s;
 	}
-
 </style>
 
 <body style="background-color: black">
-	<div class="container text-center text-white">
+	<div class="container text-center text-white ">
 			<nav class="navbar" style="display: none;border-bottom: 1px solid white;">
 			  <a class="navbar-brand text-left" style="font-size: 1.4rem;">Jinit Shah</a>
 			  	<div class=" justify-content-end">
@@ -31,31 +30,46 @@
 			</nav>
 			<br><br>
 
-		<div class="display-3 mt-3 text-center text-white" id="Intro"></div>
+		<div class=" display-3 mt-3 text-center text-white " id="Intro"></div>
 
-		<div class="MainPage text-white">
+		<div class="MainPage mt-5 text-white">
 			<br><br>
 			<div class="row" id="rows">
 				<a class="col-lg-4 mb-5 text-center text-white display-4 About"  href="About.html" style="display: none;" ></a>
 				<a class="col-lg-4 mb-5 text-center text-white display-4 Projects"  href="Projects.html" style="display: none;"></a>
 				<a class="col-lg-4 mb-5 text-center text-white display-4 Internships"  href="Internships.html" style="display: none;"></a>
-
 			</div>
 
-			<div class="row mb-5" id="rows">
+			<div class="row" id="rows">
 				<a class="col-lg-4"></a>
-				<a class="col-lg-4 text-center text-white display-4 Blog"  href="Blog.html" style="display: none;"></a>
+				<a class="col-lg-4 mb-5 text-center text-white display-4 Blog"  href="Blog.html" style="display: none;"></a>
 			</div>
 
-			<div class="last_line display-4" style="display: none;">Click on any of the above to know more.</div>
+			<div class="last_line display-4 mt-4" style="display: none;">Click on any of the above to know more.</div>
 		</div>
-
-
-
 	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 	<script type="text/javascript">
+
+
+	    if($(document).width() <= 992){
+	    	$("#Intro").removeClass("display-3");
+	    	$("#Intro").addClass("display-1");
+      	
+      		$('.About')[0].style['border-left'] = '3px solid white';
+      		$('.Projects')[0].style['border-right'] = '3px solid white';
+      		$('.Internships')[0].style['border-left'] = '3px solid white';
+      		$('.Blog')[0].style['border-right'] = '3px solid white';
+
+
+	    	$(".col-lg-4").removeClass("display-4");
+	    	$(".col-lg-4").addClass("display-2");
+	    	$(".last_line").removeClass("display-4");
+	    	$(".last_line").addClass("display-2");
+
+	    }
+
 
 		var instance = new TypeIt("#Intro", {
 		  strings: ["Hi, I'm Jinit!"],
